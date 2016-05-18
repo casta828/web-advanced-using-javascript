@@ -1,0 +1,30 @@
+header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 90px;
+   background-color: $color-border;
+   width: 100vw;
+   margin: 0 auto;
+   clear: both;
+
+   ul {
+      position: relative;
+      left: 10px;
+      top: 5vh;
+
+      a {
+         color: $color-nav-links;
+      }
+   }
+}
+
+#pacha_logo{
+   position: absolute;
+   margin-top: 0;
+   top: 1vh;
+   left: 46%;
+   width: 10vw;
+
+}
+

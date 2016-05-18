@@ -1,0 +1,46 @@
+#myModal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: $full-width;
+	height: $full-height;
+	background: rgba(118,139,181, 0.7);
+	display: none;
+	z-index: 1;
+
+}
+
+#modalFront{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+	padding: 22px;
+	width: $full-width/1.5;
+	height: $full-height/1.5;
+	background-color: rgba(118,139,181, 0.6);
+	font-size: 30px;
+	color: rgb(255,255,255);
+	display: none;
+	z-index: 20;
+}
+
+@media screen and (max-width: 736px){
+	nav > ul{
+		position: fixed;
+		top: 0px;
+		left: -300px;
+		transition: left 500ms ease;
+	}
+	nav > .shownav{
+	position: absolute;
+	top:0;
+	left: 0;
+	}
+} 
+
+
+
+
